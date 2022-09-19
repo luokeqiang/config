@@ -1,0 +1,44 @@
+let mapleader=" "
+syntax on
+set number
+set relativenumber
+set cursorline
+set wrap        "不会换行
+set showcmd
+set wildmenu    "command tip
+set hlsearch
+exec "nohlsearch"
+set incsearch
+set ignorecase
+set smartcase
+
+noremap <LEADER><CR> :nohlsearch<CR>  "空格 + 回车 清除搜索高亮
+noremap h i
+noremap i k
+noremap j h
+noremap k j
+noremap I 5k
+noremap K 5j
+
+map S :w<CR>
+map R :source $MYVIMRC<CR>
+
+" 在 markdown 文件类型，在normal 模式下输入 code 自动插入代码块
+autocmd Filetype markdown noremap code i```<CR><CR>```<ESC>ki
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'vim-airline/vim-airline'
+Plug 'joshdick/onedark.vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+Plug 'rust-lang/rust.vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'preservim/nerdtree'
+
+
+call plug#end()
+"colorscheme onedark
+colorscheme dracula
+autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE " transparent bg
