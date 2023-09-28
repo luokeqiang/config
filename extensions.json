@@ -1,0 +1,32 @@
+{
+	"recommendations": [
+		"Vue.volar",
+		"Vue.vscode-typescript-vue-plugin",
+		"hollowtree.vue-snippets",
+		"dariofuzinato.vue-peek",
+		"sdras.vue-vscode-snippets",
+		"zhubincong.vue-component",
+		"noxussj.element-plus",
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"rvest.vs-code-prettier-eslint",
+		"formulahendry.auto-close-tag",
+		"formulahendry.auto-rename-tag",
+		"michelemelluso.code-beautifier",
+		"streetsidesoftware.code-spell-checker",
+		"vincaslt.highlight-matching-tag",
+		"kisstkondoros.vscode-gutter-preview",
+		"oderwat.indent-rainbow",
+		"xabikos.javascriptsnippets",
+		"dominicvonk.parameter-hints",
+		"christian-kohler.path-intellisense",
+		"simonsiefke.svg-preview",
+		"meganrogge.template-string-converter",
+		"shardulm94.trailing-spaces",
+		"antfu.vite",
+		"amodio.gitlens",
+		"chadalen.vscode-jetbrains-icon-theme",
+		"isudox.vscode-jetbrains-keybindings",
+		"xr0master.webstorm-intellij-darcula-theme"
+	]
+}
